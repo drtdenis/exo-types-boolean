@@ -1,8 +1,8 @@
 // Programme qui va m'aider à décider si je dois mettre mon manteau
 // ou pas en fonction d'une méteo pluvieuse ou venteuse
-let isRainy = true
+let isRainy = false
 let isWindy = false
-let temperature = 12
+let temperature = 8
 
 if ((isRainy || isWindy) || temperature <= 12) {
   console.log('Mettez votre manteau')
